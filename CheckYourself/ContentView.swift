@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var targetValue = Int.random(in: 0...100)
     
     var body: some View {
-        VStack(spacing: 10) {
+        VStack(spacing: 20) {
             Text("Подвиньте слайдер как можно ближе к: \(targetValue)")
             HStack {
                 Text("0")
