@@ -11,6 +11,7 @@
 		AD40647D29FFBA51004B9AD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40647C29FFBA51004B9AD6 /* ContentView.swift */; };
 		AD40647F29FFBA52004B9AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD40647E29FFBA52004B9AD6 /* Assets.xcassets */; };
 		AD40648229FFBA52004B9AD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD40648129FFBA52004B9AD6 /* Preview Assets.xcassets */; };
+		AD40648929FFC584004B9AD6 /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40648829FFC584004B9AD6 /* UISliderRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AD40647C29FFBA51004B9AD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD40647E29FFBA52004B9AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD40648129FFBA52004B9AD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD40648829FFC584004B9AD6 /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AD40647A29FFBA51004B9AD6 /* CheckYourselfApp.swift */,
 				AD40647C29FFBA51004B9AD6 /* ContentView.swift */,
+				AD40648829FFC584004B9AD6 /* UISliderRepresentation.swift */,
 				AD40647E29FFBA52004B9AD6 /* Assets.xcassets */,
 				AD40648029FFBA52004B9AD6 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD40648929FFC584004B9AD6 /* UISliderRepresentation.swift in Sources */,
 				AD40647D29FFBA51004B9AD6 /* ContentView.swift in Sources */,
 				AD40647B29FFBA51004B9AD6 /* CheckYourselfApp.swift in Sources */,
 			);
