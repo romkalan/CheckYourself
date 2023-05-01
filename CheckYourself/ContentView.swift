@@ -33,6 +33,7 @@ struct ContentView: View {
                 }
             Button("Начать заново", action: {
                 targetValue = Int.random(in: 0...100)
+                currentValue = Double.random(in: 0...100)
                 setThumbOpacity()
             })
         }

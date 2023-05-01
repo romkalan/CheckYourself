@@ -32,6 +32,7 @@ struct UISliderRepresentation: UIViewRepresentable {
             blue: 0,
             alpha: thumbOpacity / 100
         )
+        uiView.value = Float(currentValue)
     }
     
     func makeCoordinator() -> Coordinator {
