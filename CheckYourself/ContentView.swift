@@ -27,7 +27,7 @@ struct ContentView: View {
                     }
                 Text("100")
             }
-            Button("Проверь меня!", action: { showAlert = true })
+            Button("Проверь меня!", action: { showAlert.toggle() })
                 .alert("Ваш результат:", isPresented: $showAlert, actions: {}) {
                     Text("\(computeScore())")
                 }
@@ -48,7 +48,7 @@ struct ContentView: View {
     }
     
     private func setThumbOpacity() {
-        thumbOpacity = Double(computeScore()) / 100
+        thumbOpacity = Double(computeScore())
     }
 }
 

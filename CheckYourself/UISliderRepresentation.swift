@@ -27,7 +27,12 @@ struct UISliderRepresentation: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UISlider, context: Context) {
-        uiView.thumbTintColor = UIColor(red: 1, green: 0, blue: 0, alpha: thumbOpacity)
+        uiView.thumbTintColor = UIColor(
+            red: 1,
+            green: 0,
+            blue: 0,
+            alpha: thumbOpacity / 100
+        )
     }
     
     func makeCoordinator() -> Coordinator {
@@ -53,6 +58,6 @@ extension UISliderRepresentation {
 
 struct UISliderRepresentation_Previews: PreviewProvider {
     static var previews: some View {
-        UISliderRepresentation(currentValue: .constant(10), thumbOpacity: 0.5)
+        UISliderRepresentation(currentValue: .constant(50), thumbOpacity: 50)
     }
 }
