@@ -52,7 +52,6 @@ extension UISliderRepresentation {
         @objc func changeSliderValue(_ sender: UISlider) {
             currentValue = Double(sender.value)
         }
-        
     }
 }
 
